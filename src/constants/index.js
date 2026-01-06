@@ -110,6 +110,7 @@ const PROJECTS_LOCATION = {
   icons: "/icons/work.svg",
   kind: "folder",
   children: [
+    //Project 1
     {
       id: 5,
       name: "HB Realty",
@@ -154,6 +155,7 @@ const PROJECTS_LOCATION = {
         },
       ],
     },
+    //Project 2
     {
       id: 4,
       name: "AI-SEO Landing Page",
@@ -195,6 +197,7 @@ const PROJECTS_LOCATION = {
         },
       ],
     },
+    //Project 3
     {
       id: 5,
       name: "Yurei Run",
@@ -236,6 +239,7 @@ const PROJECTS_LOCATION = {
         },
       ],
     },
+    //Project 4
     {
       id: 6,
       name: "Ping-Pong",
@@ -280,3 +284,68 @@ const PROJECTS_LOCATION = {
     },
   ],
 };
+
+const ABOUT_LOCATION = {
+  id: 2,
+  type: "about",
+  name: "About Me",
+  icon: "/icons/info.svg",
+  kind: "folder",
+  children: [
+    {
+      id: 1,
+      name: "about-me.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-60 left-5",
+      subtitle: "Meet the Developer Behind the Code",
+      description: [
+        "Semi-professional esports athlete transitioning into software development, bringing a competitive and problem-solving mindset.",
+        "Passionate about building practical, user-focused products and turning ideas into working solutions.",
+        "Actively explores new technologies and frameworks to stay adaptable and industry-ready.",
+        "Strong belief in continuous learning, skill improvement, and hands-on experience through projects.",
+        "Enjoys game development as a creative outlet, combining technical skills with design and gameplay mechanics.",
+      ],
+    },
+    // TODO: Esports Achievements
+  ],
+};
+
+const RESUME_LOCATION = {
+  id: 3,
+  type: "resume",
+  name: "Resume",
+  icon: "/icons/file.svg",
+  kind: "folder",
+  children: [
+    {
+      id: 1,
+      name: "Resume.pdf",
+      icon: "/images/pdf.png",
+      kind: "file",
+      fileType: "pdf",
+      resumeUrl: "/files/resume.pdf"
+    },
+  ],
+};
+
+const TRASH_LOCATION = {
+  id: 4,
+  type: "trash",
+  name: "Trash",
+  icon: "/icons/trash.svg",
+  kind: "folder",
+  children: [
+    {
+      //TODO: Add a few random images
+    }
+  ]
+}
+
+export const locations = {
+  projects: PROJECTS_LOCATION,
+  about: ABOUT_LOCATION,
+  resume: RESUME_LOCATION,
+  trash: TRASH_LOCATION
+}

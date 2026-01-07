@@ -107,7 +107,7 @@ const PROJECTS_LOCATION = {
   id: 1,
   type: "projects",
   name: "Projects",
-  icons: "/icons/work.svg",
+  icon: "/icons/projects.svg",
   kind: "folder",
   children: [
     //Project 1
@@ -325,7 +325,7 @@ const RESUME_LOCATION = {
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
-      resumeUrl: "/files/resume.pdf"
+      resumeUrl: "/files/resume.pdf",
     },
   ],
 };
@@ -339,13 +339,13 @@ const TRASH_LOCATION = {
   children: [
     {
       //TODO: Add a few random images
-    }
-  ]
-}
+    },
+  ],
+};
 
 export const locations = {
   projects: PROJECTS_LOCATION,
   about: ABOUT_LOCATION,
   resume: RESUME_LOCATION,
-  trash: TRASH_LOCATION
-}
+  trash: TRASH_LOCATION,
+};

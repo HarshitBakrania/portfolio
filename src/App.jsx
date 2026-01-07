@@ -1,6 +1,7 @@
 import { Dock } from "@components/Dock";
 import { Navbar } from "@components/Navbar";
 import { Welcome } from "@components/Welcome";
+import { FinderWindow } from "@windows/Finder";
 import { ResumeWindow } from "@windows/Resume";
 import TerminalWindow from "@windows/Terminal";
 import gsap from "gsap";
@@ -15,6 +16,7 @@ const App = () =>{
       <Dock />
       <TerminalWindow />
       <ResumeWindow />
+      <FinderWindow />
     </main>
   )
 };

@@ -10,7 +10,7 @@ export const useLocationStore = create(
 
     setActiveLocation: (location = null) =>
       set((state) => {
-        state.location = location;
+        state.activeLocation = location;
       }),
 
     resetActiveLocation: () => {

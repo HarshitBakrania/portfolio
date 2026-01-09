@@ -199,7 +199,7 @@ const PROJECTS_LOCATION = {
     },
     //Project 3
     {
-      id: 5,
+      id: 6,
       name: "Yurei Run",
       icon: "/images/folder.png",
       kind: "folder",
@@ -241,7 +241,7 @@ const PROJECTS_LOCATION = {
     },
     //Project 4
     {
-      id: 6,
+      id: 7,
       name: "Ping-Pong",
       icon: "/images/folder.png",
       kind: "folder",
@@ -298,7 +298,7 @@ const ABOUT_LOCATION = {
       icon: "/images/txt.png",
       kind: "file",
       fileType: "txt",
-      position: "top-60 left-5",
+      position: "top-10 left-5",
       subtitle: "Meet the Developer Behind the Code",
       description: [
         "Semi-professional esports athlete transitioning into software development, bringing a competitive and problem-solving mindset.",

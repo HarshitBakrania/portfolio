@@ -7,14 +7,27 @@ import clsx from "clsx";
 import { Search } from "lucide-react";
 
 const Finder = () => {
-  const { openWindow } = useWindowStore();
+  const { openWindow, focusWindow } = useWindowStore();
   const { activeLocation, setActiveLocation } = useLocationStore();
 
   const openItem = (item) => {
-    if (item.fileType === "pdf") return openWindow("resume");
+    if (item.fileType === "pdf") {
+      openWindow("resume");
+      return focusWindow("resume");
+    }
+
     if (item.kind === "folder") return setActiveLocation(item);
-    if (item.fileType === "txt") return openWindow("txtfile", item);
-    if (item.fileType === "img" && item.imageUrl) return openWindow("imgfile", item);
+
+    if (item.fileType === "txt") {
+      openWindow("txtfile", item);
+      return focusWindow("txtfile");
+    }
+
+    if (item.fileType === "img" && item.imageUrl) {
+      openWindow("imgfile", item);
+      return focusWindow("imgfile");
+    }
+
     if (item.fileType === "url" && item.href) return window.open(item.href, "_blank");
   };
 

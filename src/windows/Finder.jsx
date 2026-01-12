@@ -12,9 +12,10 @@ const Finder = () => {
 
   const openItem = (item) => {
     if (item.fileType === "pdf") return openWindow("resume");
-    else if (item.kind === "folder") return setActiveLocation(item);
-    else if ("url".includes(item.fileType) && item.href)
-      return window.open(item.href, "_blank");
+    if (item.kind === "folder") return setActiveLocation(item);
+    if (item.fileType === "txt") return openWindow("txtfile", item);
+    if (item.fileType === "img" && item.imageUrl) return openWindow("imgfile", item);
+    if (item.fileType === "url" && item.href) return window.open(item.href, "_blank");
   };
 
   const renderList = (items) =>

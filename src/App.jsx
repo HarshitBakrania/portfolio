@@ -2,8 +2,10 @@ import { Dock } from "@components/Dock";
 import { Navbar } from "@components/Navbar";
 import { Welcome } from "@components/Welcome";
 import { FinderWindow } from "@windows/Finder";
+import { ImageWindow } from "@windows/Image";
 import { ResumeWindow } from "@windows/Resume";
 import TerminalWindow from "@windows/Terminal";
+import { TextWindow } from "@windows/Text";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
 gsap.registerPlugin(Draggable);
@@ -17,6 +19,8 @@ const App = () =>{
       <TerminalWindow />
       <ResumeWindow />
       <FinderWindow />
+      <TextWindow />
+      <ImageWindow />
     </main>
   )
 };

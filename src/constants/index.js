@@ -265,9 +265,9 @@ const PROJECTS_LOCATION = {
         {
           id: 2,
           name: "ping-pong.com",
-          icon: "/images/game.png",
+          icon: "/images/safari.png",
           kind: "file",
-          fileType: "other",
+          fileType: "url",
           href: "https://h-bakrania.itch.io/ping-pong",
           position: "top-10 right-20",
         },

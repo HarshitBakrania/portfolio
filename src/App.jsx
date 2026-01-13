@@ -1,4 +1,5 @@
 import { Dock } from "@components/Dock";
+import { Home } from "@components/Home";
 import { Navbar } from "@components/Navbar";
 import { Welcome } from "@components/Welcome";
 import { ContactWindow } from "@windows/Contact";
@@ -23,6 +24,7 @@ const App = () =>{
       <TextWindow />
       <ImageWindow />
       <ContactWindow />
+      <Home />
     </main>
   )
 };

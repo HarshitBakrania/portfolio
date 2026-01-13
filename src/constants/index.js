@@ -31,15 +31,15 @@ export const dockApps = [
     canOpen: true,
   },
   {
-    id: "photos",
-    name: "Gallery", // was "Photos"
-    icon: "photos.png",
-    canOpen: true,
-  },
-  {
     id: "contact",
     name: "Contact", // or "Get in touch"
     icon: "contact.png",
+    canOpen: true,
+  },
+  {
+    id: "photos",
+    name: "Gallery", // was "Photos"
+    icon: "photos.png",
     canOpen: true,
   },
   {
@@ -117,7 +117,7 @@ const PROJECTS_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5",
-      windowPosition: "top-[5vh] left-5",
+      windowPosition: "top-[5vh] left-30",
       children: [
         {
           id: 1,
@@ -162,7 +162,7 @@ const PROJECTS_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-7",
+      windowPosition: "top-[20vh] left-12",
       children: [
         {
           id: 1,
@@ -204,7 +204,7 @@ const PROJECTS_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[23vh] right-30",
       children: [
         {
           id: 1,
@@ -212,7 +212,7 @@ const PROJECTS_LOCATION = {
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-5 left-10",
+          position: "top-5 left-20",
           description: [
             "Developed Yurei Run, a Japanese-themed endless runner game using Unity and C#.",
             "Implemented core gameplay mechanics including player movement, obstacle spawning, and collision handling.",
@@ -246,7 +246,7 @@ const PROJECTS_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 left-80",
-      windowPosition: "top-[45vh] left-7",
+      windowPosition: "top-[35vh] right-50",
       children: [
         {
           id: 1,

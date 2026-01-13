@@ -1,6 +1,7 @@
 import { Dock } from "@components/Dock";
 import { Navbar } from "@components/Navbar";
 import { Welcome } from "@components/Welcome";
+import { ContactWindow } from "@windows/Contact";
 import { FinderWindow } from "@windows/Finder";
 import { ImageWindow } from "@windows/Image";
 import { ResumeWindow } from "@windows/Resume";
@@ -21,6 +22,7 @@ const App = () =>{
       <FinderWindow />
       <TextWindow />
       <ImageWindow />
+      <ContactWindow />
     </main>
   )
 };

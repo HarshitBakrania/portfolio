@@ -335,7 +335,20 @@ const TRASH_LOCATION = {
   kind: "folder",
   children: [
     {
-      //TODO: Add a few random images
+      id: 1,
+      name: "Unfinished_Donut.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      imageUrl: "/images/trash1.png"
+    },{
+      id: 2,
+      name: "peepoThink.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 right-80",
+      imageUrl: "/images/peepoThink.png"
     },
   ],
 };

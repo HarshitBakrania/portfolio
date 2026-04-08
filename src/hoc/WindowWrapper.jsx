@@ -7,7 +7,7 @@ import { Draggable } from "gsap/Draggable";
 export const WindowWrapper = (Component, windowKey) => {
   const Wrapped = (props) => {
     const { focusWindow, windows } = useWindowStore();
-    const { isOpen, zIndex } = windows[windowKey];
+    const { isOpen, zIndex, data } = windows[windowKey];
     const windowRef = useRef(null);
 
     useGSAP(() => {
@@ -45,7 +45,7 @@ export const WindowWrapper = (Component, windowKey) => {
         style={{ zIndex }}
         className="absolute"
       >
-        <Component {...props} />
+        <Component {...props} windowData={data} />
       </section>
     );
   };

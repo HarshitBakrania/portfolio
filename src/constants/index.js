@@ -14,7 +14,7 @@ export const navIcons = [
 export const dockApps = [
   {
     id: "finder",
-    name: "Portfolio", // was "Finder"
+    name: "Explorer", // was "Finder"
     icon: "finder.png",
     canOpen: true,
   },
@@ -301,11 +301,8 @@ const ABOUT_LOCATION = {
       position: "top-10 left-5",
       subtitle: "Meet the Developer Behind the Code",
       description: [
-        "Semi-professional esports athlete transitioning into software development, bringing a competitive and problem-solving mindset.",
-        "Passionate about building practical, user-focused products and turning ideas into working solutions.",
-        "Actively explores new technologies and frameworks to stay adaptable and industry-ready.",
-        "Strong belief in continuous learning, skill improvement, and hands-on experience through projects.",
-        "Enjoys game development as a creative outlet, combining technical skills with design and gameplay mechanics.",
+        "Software developer focused on building reliable and well-designed applications, driven by curiosity and a constant urge to learn. I enjoy exploring new technologies and like working on game development as a creative side hobby.",
+        "I also come from a semi-professional esports background in DotA 2, where I’ve won national and international tournaments organized by ASUS, Bigbang Esports, ILG, Acer, and MSI. I’ve also competed in national qualifiers for global events like the Asian Games, IESF, and the Commonwealth Esports Championship, which helped me build a strong competitive mindset and teamwork skills.",
       ],
     },
     // TODO: Esports Achievements

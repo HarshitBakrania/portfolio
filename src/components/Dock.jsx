@@ -1,5 +1,5 @@
 import { Tooltip } from "react-tooltip";
-import { dockApps } from "@constants";
+import { dockApps, locations } from "@constants";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -68,6 +68,16 @@ export const Dock = () => {
     if(window?.isOpen){
       closeWindow(app.id);
     }else{
+      if (app.id === "finder") {
+        openWindow("finder", { location: locations.about });
+        return;
+      }
+
+      if (app.id === "safari") {
+        openWindow("safari", { location: locations.projects });
+        return;
+      }
+
       openWindow(app.id);
     }
   };

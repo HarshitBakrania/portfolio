@@ -6,6 +6,7 @@ import { ContactWindow } from "@windows/Contact";
 import { FinderWindow } from "@windows/Finder";
 import { ImageWindow } from "@windows/Image";
 import { ResumeWindow } from "@windows/Resume";
+import { SafariWindow } from "@windows/Safari";
 import TerminalWindow from "@windows/Terminal";
 import { TextWindow } from "@windows/Text";
 import gsap from "gsap";
@@ -21,6 +22,7 @@ const App = () =>{
       <TerminalWindow />
       <ResumeWindow />
       <FinderWindow />
+      <SafariWindow />
       <TextWindow />
       <ImageWindow />
       <ContactWindow />

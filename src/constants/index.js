@@ -127,12 +127,12 @@ const PROJECTS_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Developed a full-stack real estate platform using React, Node.js, Express, MongoDB, Prisma, TailwindCSS, and Socket.io.",
-            "Implemented secure authentication with JWT and HTTP-only cookies.",
-            "Built user profile management with avatar upload functionality.",
-            "Created property listings with 6 advanced search filters, scalable to 1,000+ properties.",
-            "Integrated interactive maps for enhanced property discovery.",
-            "Enabled real-time user messaging using Socket.io.",
+            " • Developed a full-stack real estate platform using React, Node.js, Express, MongoDB, Prisma, TailwindCSS, and Socket.io.",
+            " • Implemented secure authentication with JWT and HTTP-only cookies.",
+            " • Built user profile management with avatar upload functionality.",
+            " • Created property listings with 6 advanced search filters, scalable to 1,000+ properties.",
+            " • Integrated interactive maps for enhanced property discovery.",
+            " • Enabled real-time user messaging using Socket.io.",
           ],
         },
         {
@@ -172,9 +172,9 @@ const PROJECTS_LOCATION = {
           fileType: "txt",
           position: "top-10 left-5",
           description: [
-            "Built a modern, responsive landing page using React, Next.js, TailwindCSS, and Framer Motion.",
-            "Optimized the UI for 17+ screen resolutions to ensure consistent cross-device experience.",
-            "Implemented smooth animations with Framer Motion, improving user engagement and time on page.",
+            " • Built a modern, responsive landing page using React, Next.js, TailwindCSS, and Framer Motion.",
+            " • Optimized the UI for 17+ screen resolutions to ensure consistent cross-device experience.",
+            " • Implemented smooth animations with Framer Motion, improving user engagement and time on page.",
           ],
         },
         {
@@ -214,9 +214,9 @@ const PROJECTS_LOCATION = {
           fileType: "txt",
           position: "top-5 left-20",
           description: [
-            "Developed Yurei Run, a Japanese-themed endless runner game using Unity and C#.",
-            "Implemented core gameplay mechanics including player movement, obstacle spawning, and collision handling.",
-            "Integrated immersive visual and audio elements to enhance player experience.",
+            " • Developed Yurei Run, a Japanese-themed endless runner game using Unity and C#.",
+            " • Implemented core gameplay mechanics including player movement, obstacle spawning, and collision handling.",
+            " • Integrated immersive visual and audio elements to enhance player experience.",
           ],
         },
         {
@@ -256,10 +256,10 @@ const PROJECTS_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Developed a Ping Pong game in C++ using the Raylib graphics library.",
-            "Implemented custom collision detection and physics for realistic ball movement.",
-            "Built player vs computer gameplay with adaptive difficulty scaling.",
-            "Focused on low-level game logic, performance, and real-time input handling.",
+            " • Developed a Ping Pong game in C++ using the Raylib graphics library.",
+            " • Implemented custom collision detection and physics for realistic ball movement.",
+            " • Built player vs computer gameplay with adaptive difficulty scaling.",
+            " • Focused on low-level game logic, performance, and real-time input handling.",
           ],
         },
         {
@@ -301,8 +301,8 @@ const ABOUT_LOCATION = {
       position: "top-10 left-5",
       subtitle: "Meet the Developer Behind the Code",
       description: [
-        "Software developer focused on building reliable and well-designed applications, driven by curiosity and a constant urge to learn. I enjoy exploring new technologies and like working on game development as a creative side hobby.",
-        "I also come from a semi-professional esports background in DotA 2, where I’ve won national and international tournaments organized by ASUS, Bigbang Esports, ILG, Acer, and MSI. I’ve also competed in national qualifiers for global events like the Asian Games, IESF, and the Commonwealth Esports Championship, which helped me build a strong competitive mindset and teamwork skills.",
+        " • Software developer focused on building reliable and well-designed applications, driven by curiosity and a constant urge to learn. I enjoy exploring new technologies and like working on game development as a creative side hobby.",
+        " • I also come from a semi-professional esports background in DotA 2, where I’ve won national and international tournaments organized by ASUS, Bigbang Esports, ILG, Acer, and MSI. I’ve also competed in national qualifiers for global events like the Asian Games, IESF, and the Commonwealth Esports Championship, which helped me build a strong competitive mindset and teamwork skills.",
       ],
     },
     // TODO: Esports Achievements

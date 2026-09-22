@@ -340,15 +340,16 @@ const TRASH_LOCATION = {
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
-      imageUrl: "/images/trash1.png"
-    },{
+      imageUrl: "/images/trash1.png",
+    },
+    {
       id: 2,
       name: "peepoThink.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 right-80",
-      imageUrl: "/images/peepoThink.png"
+      imageUrl: "/images/peepoThink.png",
     },
   ],
 };
@@ -376,7 +377,10 @@ const CLIENT_WORK_LOCATION = {
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
-          description: [], // placeholder — fill in later
+          description: [
+            "• A modern, responsive showcase website built for Orofin Trading L.L.C., a Dubai-based supplier of specialized equipment for gold and silver refining, melting, smelting, assaying, and related industrial processes.",
+            "• The website focuses on presenting Orofin’s services and solutions through a clean, professional interface with smooth interactions, animations, responsive layouts, and a polished visual experience designed to showcase the brand and its offerings.",
+          ], // placeholder — fill in later
         },
         {
           id: 2,

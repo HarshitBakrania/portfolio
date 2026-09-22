@@ -7,6 +7,7 @@ import { Draggable } from "gsap/Draggable";
 
 export const Home = () => {
   const projects = locations.projects?.children ?? [];
+  const clientWork = locations.clientwork?.children ?? [];
   const { setActiveLocation } = useLocationStore();
   const { openWindow } = useWindowStore();
 
@@ -30,6 +31,16 @@ export const Home = () => {
           >
             <img src="/images/folder.png" alt={project.name} />
             <p>{project.name}</p>
+          </li>
+        ))}
+        {clientWork.map((item) => (
+          <li
+            key={`cw-${item.id}`}
+            className={clsx("group folder", item.windowPosition)}
+            onDoubleClick={() => openProjectWindow(item)}
+          >
+            <img src="/images/folder.png" alt={item.name} />
+            <p>{item.name}</p>
           </li>
         ))}
       </ul>

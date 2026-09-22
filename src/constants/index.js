@@ -353,11 +353,60 @@ const TRASH_LOCATION = {
   ],
 };
 
+const CLIENT_WORK_LOCATION = {
+  id: 5,
+  type: "clientwork",
+  name: "Client Work",
+  icon: "/icons/projects.svg",
+  kind: "folder",
+  children: [
+    // Client 1: Orofin Trading
+    {
+      id: 8,
+      name: "Orofin Trading",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-5",
+      windowPosition: "top-[52vh] left-24",
+      children: [
+        {
+          id: 1,
+          name: "Orofin Trading.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [], // placeholder — fill in later
+        },
+        {
+          id: 2,
+          name: "orofintrading.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://orofintrading.com/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 3,
+          name: "Orofin Trading.gif",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/Orofin Trading.gif",
+        },
+      ],
+    },
+  ],
+};
+
 export const locations = {
   projects: PROJECTS_LOCATION,
   about: ABOUT_LOCATION,
   resume: RESUME_LOCATION,
   trash: TRASH_LOCATION,
+  clientwork: CLIENT_WORK_LOCATION,
 };
 
 export const socials = [

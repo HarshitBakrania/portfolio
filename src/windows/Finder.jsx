@@ -72,6 +72,11 @@ const Finder = ({ windowData }) => {
             <h3>Projects</h3>
             <ul>{renderList(locations.projects.children)}</ul>
           </div>
+
+          <div>
+            <h3>Client Work</h3>
+            <ul>{renderList(locations.clientwork.children)}</ul>
+          </div>
         </div>
 
         <ul className="content">

@@ -17,13 +17,13 @@ const Image = () => {
         <h2>{name}</h2>
       </div>
 
-      <div className="p-5 bg-white" style={{ maxHeight: "90vh" }}>
+      <div className="bg-white overflow-hidden" style={{ maxHeight: "90vh" }}>
         {imageUrl ? (
           <div className="w-full flex justify-center items-center">
             <img
               src={imageUrl}
               alt={name}
-              className="max-w-full h-auto object-contain rounded"
+              className="w-full h-auto object-cover"
               style={{ maxHeight: "calc(90vh - 80px)" }}
             />
           </div>
